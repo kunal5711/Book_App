@@ -18,7 +18,7 @@ const UpdateBook = () => {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get('https://book-app-31ms.onrender.com/books');
+      const res = await axios.get('https://book-app-2-9jqi.onrender.com/books');
       setBooks(res.data);
     } catch (error) {
       console.error(error);
